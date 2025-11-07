@@ -817,17 +817,17 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Email me through</span>
-                  <span class="detail-value">fortunemuoki@gmail.com</span>
+                  <a class="detail-value" href="mailto:fortunemuoki@gmail.com">fortunemuoki@gmail.com</a>
                 </div>
               </div>
 
               <div class="detail-item">
                 <div class="detail-icon">
-                  <i class="bi bi-telephone-outbound"></i>
+                  <i class="bi bi-telephone-fill"></i>
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Contact me via</span>
-                  <span class="detail-value">+254746628411</span>
+                  <a class="detail-value" href="tel:+254746628411">+254746628411</a>
                 </div>
               </div>
 
@@ -851,7 +851,10 @@
                 <h3>Send me a message</h3>
               </div>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
+        <!-- To use an external form service (e.g. Formspree), replace the action URL with your form endpoint.
+          Example: action="https://formspree.io/f/yourFormId"
+          For local testing you can set data-dev="true" below to simulate a successful submit (remove when you add a real endpoint). -->
+        <form action="https://formspree.io/f/yourFormId" method="post" class="php-email-form" data-dev="true">
 
                 <div class="row">
                   <div class="col-md-6">
